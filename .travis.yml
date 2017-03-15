@@ -5,3 +5,6 @@ python:
 
 script:
 - pytest
+
+notifications:
+  email: false
