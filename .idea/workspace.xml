@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ee5ae1-c907-42d9-81f9-63363dab5d1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fizzbuzz/fizzbuzz.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_fizzbuzz.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fizzbuzz/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_fizzbuzz.py" afterPath="$PROJECT_DIR$/tests/test_fizzbuzz.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +19,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_fizzbuzz.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_fizzbuzz.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,10 +55,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/codetest.py" />
-        <option value="$PROJECT_DIR$/tests/test_fizzbuzz.py" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/test_fizzbuzz.py" />
         <option value="$PROJECT_DIR$/fizzbuzz.py" />
+        <option value="$PROJECT_DIR$/tests/test_fizzbuzz.py" />
       </list>
     </option>
   </component>
@@ -83,6 +93,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fizzbuzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fizzbuzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fizzbuzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -141,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489595058403</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="moved files corrected">
+      <created>1489595160519</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1489595160519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -195,7 +226,8 @@
     <MESSAGE value="adding file for travis" />
     <MESSAGE value="updating pep 8" />
     <MESSAGE value="moved files" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved files" />
+    <MESSAGE value="moved files corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved files corrected" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -292,7 +324,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codetest.py" />
     <entry file="file://$PROJECT_DIR$/../MCdice5050.py" />
-    <entry file="file://$PROJECT_DIR$/tests/test_fizzbuzz.py" />
     <entry file="file://$PROJECT_DIR$/test_fizzbuzz.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -313,6 +344,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_fizzbuzz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

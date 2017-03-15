@@ -1,5 +1,4 @@
 from fizzbuzz import fizzbuzz
-import pytest
 
 
 def test_fizzbuzz_1():
