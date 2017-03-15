@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ee5ae1-c907-42d9-81f9-63363dab5d1d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fizzbuzz.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_fizzbuzz.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fizzbuzz/fizzbuzz.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_fizzbuzz.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,6 +86,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fizzbuzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fizzbuzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fizzbuzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -120,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489594712309</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="moved files">
+      <created>1489595058403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489595058403</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -173,7 +194,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding file for travis" />
     <MESSAGE value="updating pep 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating pep 8" />
+    <MESSAGE value="moved files" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
