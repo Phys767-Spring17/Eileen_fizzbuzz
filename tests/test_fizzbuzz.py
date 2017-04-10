@@ -28,3 +28,5 @@ def test_fizzbuzz_50():
 def test_fizzbuzz_45():
     assert fizzbuzz(45) == 'fizzbuzz'
 
+# to run test in terminal pytest name of file to test.
+
